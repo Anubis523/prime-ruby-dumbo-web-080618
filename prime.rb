@@ -5,9 +5,7 @@ def prime? (num)
   end
   (2..Math.sqrt(num).ceil).each{|i|
     if (num % i == 0 || num < 0)
-      false 
-    else
-      true
+      false
     end
   }
 end
