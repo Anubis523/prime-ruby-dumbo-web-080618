@@ -7,3 +7,4 @@ def prime? (num)
     num % i != 0
   end
 end
+end
