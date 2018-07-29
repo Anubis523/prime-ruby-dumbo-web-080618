@@ -1,6 +1,6 @@
 # Add  code here!
 def prime? (num)
-  (2..Math.sqrt(num)).each{|i|
+  (2..Math.sqrt(num).ceil).each{|i|
     if num % i == 0
       false 
     end
