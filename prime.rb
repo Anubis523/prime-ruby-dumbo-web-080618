@@ -5,4 +5,5 @@ def prime? (num)
       false 
     end
   }
+  true
 end
